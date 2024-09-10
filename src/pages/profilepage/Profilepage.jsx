@@ -59,7 +59,7 @@ const Profilepage = () => {
         window.location.reload();
     }
     const profileImageUrl = userDetails.profilePicture
-        ? `http://localhost:5000/profile/${userDetails.profilePicture}`
+        ? `https://testhosting-lwe7.onrender.com/profile/${userDetails.profilePicture}`
         : '';
 
     return (

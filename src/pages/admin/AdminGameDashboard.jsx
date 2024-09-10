@@ -96,7 +96,7 @@ const AdminGameDashboard = () => {
                             {games.map((game) => (
                                 <tr key={game._id} className="hover:bg-gray-700">
                                     <td className="px-4 py-3">
-                                        <img className="h-10 w-10 rounded-full object-cover" src={`http://localhost:5000/games/${game.gameThumbnail}`} alt={game.gameTitle} />
+                                        <img className="h-10 w-10 rounded-full object-cover" src={`https://testhosting-lwe7.onrender.com/games/${game.gameThumbnail}`} alt={game.gameTitle} />
                                     </td>
                                     <td className="px-4 py-3">{game.gameTitle}</td>
                                     <td className="px-4 py-3">{game.developerName}</td>

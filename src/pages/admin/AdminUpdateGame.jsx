@@ -129,7 +129,7 @@ const AdminUpdateGame = () => {
                         <div>
                             <h6 className="text-lg font-semibold mb-2">Current Thumbnail</h6>
                             <img
-                                src={`http://localhost:5000/games/${oldThumbnail}`}
+                                src={`https://testhosting-lwe7.onrender.com/games/${oldThumbnail}`}
                                 className="w-full h-64 object-cover rounded-lg"
                                 alt="Current game thumbnail"
                             />

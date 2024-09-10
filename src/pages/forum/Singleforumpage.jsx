@@ -110,7 +110,7 @@ const Singleforumpage = () => {
                 <div className="flex items-center mb-4">
                     <img
                         className="w-12 h-12 rounded-full object-cover mr-4"
-                        src={`http://localhost:5000/profile/${post.postedUser.profilePicture}`}
+                        src={`https://testhosting-lwe7.onrender.com/profile/${post.postedUser.profilePicture}`}
                         alt="User profile"
                     />
                     <div>
@@ -122,7 +122,7 @@ const Singleforumpage = () => {
                     <h1 className="text-3xl font-bold mb-4 text-center">{post.postTitle}</h1>
                     {post.postPicture && (
                         <img
-                            src={`http://localhost:5000/forum/${post.postPicture}`}
+                            src={`https://testhosting-lwe7.onrender.com/forum/${post.postPicture}`}
                             alt={post.postTitle}
                             className="w-50 rounded-md mb-4"
                         />

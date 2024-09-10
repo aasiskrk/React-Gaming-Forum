@@ -62,7 +62,7 @@ const AdminDashboard = () => {
                                         {user.profilePicture && (
                                             <img
                                                 className="h-10 w-10 rounded-full object-cover"
-                                                src={`http://localhost:5000/profile/${user.profilePicture}`}
+                                                src={`https://testhosting-lwe7.onrender.com/profile/${user.profilePicture}`}
                                                 alt={`${user.fullName}'s profile`}
                                             />
                                         )}

@@ -51,7 +51,7 @@ const Sidebar = ({ user }) => {
 
 
     const profileImageUrl = userDetails.profilePicture
-        ? `http://localhost:5000/profile/${userDetails.profilePicture}`
+        ? `https://testhosting-lwe7.onrender.com/profile/${userDetails.profilePicture}`
         : '';
     return (
         <div className="flex sticky flex-col justify-between border-e border-geda bg-geda2">

@@ -127,7 +127,7 @@ const GamePage = () => {
                         {games.map((singleGame) => (
                             <div className="bg-gray-800 shadow-lg rounded-lg overflow-hidden transition-transform transform hover:scale-105" key={singleGame._id}>
                                 <img
-                                    src={`http://localhost:5000/games/${singleGame.gameThumbnail}`}
+                                    src={`https://testhosting-lwe7.onrender.com/games/${singleGame.gameThumbnail}`}
                                     className="w-full h-48 object-cover"
                                     alt={singleGame.gameTitle}
                                 />

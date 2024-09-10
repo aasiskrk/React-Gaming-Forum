@@ -132,7 +132,7 @@ const UserPostPage = () => {
                                     <h1 className="text-2xl font-bold mb-4 text-center">{post.postTitle}</h1>
                                     {post.postPicture && (
                                         <img
-                                            src={`http://localhost:5000/forum/${post.postPicture}`}
+                                            src={`https://testhosting-lwe7.onrender.com/forum/${post.postPicture}`}
                                             alt={post.postTitle}
                                             className="w-200 h-80 rounded-md mb-4"
                                         />

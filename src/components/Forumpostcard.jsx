@@ -20,7 +20,7 @@ const Forumpostcard = ({ forumInfo, onLike, onDislike, onComment, onViewFull }) 
 
                         <img
                             className="h-10 w-10 rounded-full object-cover"
-                            src={`http://localhost:5000/profile/${forumInfo.postedUser.profilePicture}`}
+                            src={`https://testhosting-lwe7.onrender.com/profile/${forumInfo.postedUser.profilePicture}`}
                             alt={forumInfo.postedFullname}
                         />
 
@@ -45,7 +45,7 @@ const Forumpostcard = ({ forumInfo, onLike, onDislike, onComment, onViewFull }) 
 
                 {forumInfo.postPicture && (
                     <img
-                        src={`http://localhost:5000/forum/${forumInfo.postPicture}`}
+                        src={`https://testhosting-lwe7.onrender.com/forum/${forumInfo.postPicture}`}
                         alt={forumInfo.postTitle}
                         className="w-full h-64 object-cover"
                         onClick={onViewFull}
